@@ -22,7 +22,7 @@ def mountain(seed, n_skip, n_iter, step = 0.0001, r_min = 0, scaling = 0):
     ax = plt.Axes(fig, [0., 0., 1., 1.])
     ax.set_axis_off()
     fig.add_axes(ax)
-    ax.plot(R, X, ls='', marker=',', color="black")
+    ax.plot(R, X, ls='', marker=',', color="pink")
     plt.ylim(0, 1)
     plt.xlim(r_min, 4.25)
     plt.show()
